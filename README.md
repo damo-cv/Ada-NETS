@@ -8,13 +8,13 @@ This is an official implementation for "Ada-NETS: Face Clustering via Adaptive N
 
 This paper presents a novel Ada-NETS algorithm to deal with the noise edges problem when building the graph in GCN-based face clustering. In Ada-NETS, the features are first transformed to the structure space to enhance the accuracy of the similarity metrics. Then an adaptive neighbour discovery method is used to find neighbours for all samples adaptively with the guidance of a heuristic quality criterion. Based on the discovered neighbour relations, a graph with clean and rich edges is built as the input of GCNs to obtain state-of-the-art on the face, clothes, and person clustering tasks.
 
-<img src=image/fig.png width=1000 height=400 />
+<img src=image/fig.png width=1000 height=350 />
 
 
 
 ## Main Results
 
-<img src=image/results.png width=900 height=400 />
+<img src=image/results.png width=900 height=350 />
 
 
 
@@ -135,9 +135,7 @@ The k-nearest neighbor search tool uses [faiss](https://github.com/facebookresea
   booktitle={International conference on learning representations (ICLR)},
   year={2022}
 }
-```
 
-```
 @misc{wang2022adanets,
       title={Ada-NETS: Face Clustering via Adaptive Neighbour Discovery in the Structure Space}, 
       author={Yaohua Wang and Yaobin Zhang and Fangyi Zhang and Senzhang Wang and Ming Lin and YuQi Zhang and Xiuyu Sun},
