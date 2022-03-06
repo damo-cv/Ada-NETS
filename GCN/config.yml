@@ -1,0 +1,22 @@
+# model
+feat_dim: 256
+nhid: 512
+nclass: 8573
+
+# optimizer
+lr: 0.1 #0.01
+sgd_momentum: 0.9
+sgd_weight_decay: 0.00001
+lr_step : [0.5, 0.8, 0.9]
+factor: 0.1
+total_step: 35000 # 
+cuda: True
+fp16: False
+batchsize: 1 # 
+warmup_step: 1024 # 
+
+# output
+save_freq: 5000 # 
+log_freq: 1
+# resume
+resume_path: 

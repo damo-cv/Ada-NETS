@@ -1,0 +1,10 @@
+easydict==1.9
+dgl-cu102==0.5.0
+apex==0.1
+faiss==1.6.3
+numpy==1.18.2
+yapf==0.30.0
+PyYAML==5.3.1
+tqdm
+scipy==1.2.1
+tensorboardX==2.0
