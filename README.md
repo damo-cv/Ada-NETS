@@ -8,13 +8,13 @@ This is an official implementation for "Ada-NETS: Face Clustering via Adaptive N
 
 This paper presents a novel Ada-NETS algorithm to deal with the noise edges problem when building the graph in GCN-based face clustering. In Ada-NETS, the features are first transformed to the structure space to enhance the accuracy of the similarity metrics. Then an adaptive neighbour discovery method is used to find neighbours for all samples adaptively with the guidance of a heuristic quality criterion. Based on the discovered neighbour relations, a graph with clean and rich edges is built as the input of GCNs to obtain state-of-the-art on the face, clothes, and person clustering tasks.
 
-<img src=image/fig.png width=1000 height=350 />
+<img src=image/fig.png width=1000 height=345 />
 
 
 
 ## Main Results
 
-<img src=image/results.png width=900 height=350 />
+<img src=image/results.png width=900 height=355 />
 
 
 
@@ -55,7 +55,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 
 The process of clustering on the MS-Celeb part1 is as follows:
 
-The original data files are from [here](https://github.com/yl-1993/learn-to-cluster). For convenience, we convert it to `.npy` format. The original features' dimension is 256. The file structure should look like:
+The original data files are from [here](https://github.com/yl-1993/learn-to-cluster/blob/master/DATASET.md#supported-datasets). For convenience, we convert them to `.npy` format after L2 normalized. The original features' dimension is 256. The file structure should look like:
 
 ```
 data
