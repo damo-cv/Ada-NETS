@@ -55,7 +55,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 
 The process of clustering on the MS-Celeb part1 is as follows:
 
-The original data files are from [here](https://github.com/yl-1993/learn-to-cluster/blob/master/DATASET.md#supported-datasets). For convenience, we convert them to `.npy` format after L2 normalized. The original features' dimension is 256. The file structure should look like:
+The original data files are from [here](https://github.com/yl-1993/learn-to-cluster/blob/master/DATASET.md#supported-datasets)(The feature and label files of MSMT17 used in Ada-NETS are [here](http://idstcv.oss-cn-zhangjiakou.aliyuncs.com/Ada-NETS/MSMT17/msmt17_feature_label.zip)). For convenience, we convert them to `.npy` format after L2 normalized. The original features' dimension is 256. The file structure should look like:
 
 ```
 data
@@ -129,7 +129,7 @@ The k-nearest neighbor search tool uses [faiss](https://github.com/facebookresea
 ## Citing Ada-NETS
 
 ```
-@article{wang2022adanets,
+@inproceedings{wang2022adanets,
   title={Ada-NETS: Face Clustering via Adaptive Neighbour Discovery in the Structure Space},
   author={Yaohua Wang and Yaobin Zhang and Fangyi Zhang and Senzhang Wang and Ming Lin and YuQi Zhang and Xiuyu Sun},
   booktitle={International conference on learning representations (ICLR)},
