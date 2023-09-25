@@ -2,6 +2,9 @@
 
 This is an official implementation for "Ada-NETS: Face Clustering via Adaptive Neighbour Discovery in the Structure Space" accepted at ICLR 2022.
 
+## News
+- 🔥 An improved method on face clustering ([**B-Attenion**](https://github.com/Thomas-wyh/B-Attention/)) is accepted by NeurIPS 2022!
+- 🔥 Ada-NETS is accepted by ICLR 2022!
 
 
 ## Introduction
